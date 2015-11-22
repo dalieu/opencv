@@ -1,0 +1,67 @@
+# Target labels
+ Main
+ opencv_hal
+ Module
+# Source files and their labels
+/home/dalieu/Downloads/opencv/modules/hal/include/opencv2/hal.hpp
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/modules/hal/include/opencv2/hal/intrin.hpp
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/modules/hal/include/opencv2/hal/intrin_neon.hpp
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/modules/hal/include/opencv2/hal/intrin_sse.hpp
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/modules/hal/include/opencv2/hal/intrin_cpp.hpp
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/modules/hal/include/opencv2/hal/defs.h
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/modules/hal/src/arithm.cpp
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/modules/hal/src/warp.cpp
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/modules/hal/src/color.cpp
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/modules/hal/src/mathfuncs.cpp
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/modules/hal/src/stat.cpp
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/modules/hal/src/filter.cpp
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/modules/hal/src/resize.cpp
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/modules/hal/src/matrix.cpp
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/modules/hal/src/precomp.hpp
+ Main
+ opencv_hal
+ Module
+/home/dalieu/Downloads/opencv/StaticLib/cvconfig.h
+/home/dalieu/Downloads/opencv/StaticLib/opencv2/opencv_modules.hpp

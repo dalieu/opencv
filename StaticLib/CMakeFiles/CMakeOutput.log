@@ -1,0 +1,500 @@
+The system is: Linux - 2.6.32-358.el6.i686 - i686
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3711198677/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3711198677.dir/build.make CMakeFiles/cmTryCompileExec3711198677.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3711198677.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3711198677.dir/testCXXCompiler.cxx.o -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3711198677
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3711198677.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec3711198677.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3711198677 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3103962820/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3103962820.dir/build.make CMakeFiles/cmTryCompileExec3103962820.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3103962820.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3103962820.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3103962820
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3103962820.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3103962820.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3103962820 -rdynamic  
+Using built-in specs.
+Target: i686-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux
+Thread model: posix
+gcc version 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3103962820' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec3103962820 /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec3103962820.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3103962820/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3103962820.dir/build.make CMakeFiles/cmTryCompileExec3103962820.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3103962820.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3103962820.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3103962820]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3103962820.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3103962820.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3103962820 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3103962820' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec3103962820 /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec3103962820.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o]
+    arg [/usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3103962820] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec3103962820.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/i686-redhat-linux/4.4.7;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3332797028/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3332797028.dir/build.make CMakeFiles/cmTryCompileExec3332797028.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3332797028.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3332797028.dir/testCCompiler.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3332797028
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3332797028.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3332797028.dir/testCCompiler.c.o  -o cmTryCompileExec3332797028 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2180331164/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2180331164.dir/build.make CMakeFiles/cmTryCompileExec2180331164.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2180331164.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2180331164.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2180331164
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2180331164.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2180331164.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2180331164 -rdynamic  
+Using built-in specs.
+Target: i686-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux
+Thread model: posix
+gcc version 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2180331164' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec2180331164 /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec2180331164.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2180331164/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2180331164.dir/build.make CMakeFiles/cmTryCompileExec2180331164.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2180331164.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2180331164.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2180331164]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2180331164.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2180331164.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2180331164 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2180331164' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec2180331164 /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec2180331164.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o]
+    arg [/usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2180331164] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec2180331164.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i686-redhat-linux/4.4.7;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec684532021/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec684532021.dir/build.make CMakeFiles/cmTryCompileExec684532021.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec684532021.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec684532021.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec684532021
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec684532021.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec684532021.dir/CheckIncludeFile.c.o  -o cmTryCompileExec684532021 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1577428514/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1577428514.dir/build.make CMakeFiles/cmTryCompileExec1577428514.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1577428514.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1577428514.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1577428514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1577428514.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1577428514.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1577428514 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3930169636/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3930169636.dir/build.make CMakeFiles/cmTryCompileExec3930169636.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3930169636.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3930169636.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3930169636
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3930169636.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3930169636.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3930169636 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1745483101/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1745483101.dir/build.make CMakeFiles/cmTryCompileExec1745483101.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1745483101.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1745483101.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1745483101
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1745483101.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1745483101.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1745483101 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec226300712/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec226300712.dir/build.make CMakeFiles/cmTryCompileExec226300712.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec226300712.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec226300712.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec226300712
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec226300712.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec226300712.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec226300712 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1197011773/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1197011773.dir/build.make CMakeFiles/cmTryCompileExec1197011773.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1197011773.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1197011773.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1197011773
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1197011773.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1197011773.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1197011773 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1361130661/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1361130661.dir/build.make CMakeFiles/cmTryCompileExec1361130661.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1361130661.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1361130661.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1361130661
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1361130661.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1361130661.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1361130661 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4004999330/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4004999330.dir/build.make CMakeFiles/cmTryCompileExec4004999330.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4004999330.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec4004999330.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+/usr/share/cmake/Modules/CheckFunctionExists.c:3: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+Linking C executable cmTryCompileExec4004999330
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4004999330.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec4004999330.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4004999330 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2835465205/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2835465205.dir/build.make CMakeFiles/cmTryCompileExec2835465205.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2835465205.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2835465205.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2835465205
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2835465205.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2835465205.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2835465205 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2881764282/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2881764282.dir/build.make CMakeFiles/cmTryCompileExec2881764282.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2881764282.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2881764282.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2881764282
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2881764282.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2881764282.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2881764282 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1496627049/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1496627049.dir/build.make CMakeFiles/cmTryCompileExec1496627049.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1496627049.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1496627049.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1496627049
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1496627049.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1496627049.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1496627049 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1575290019/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1575290019.dir/build.make CMakeFiles/cmTryCompileExec1575290019.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1575290019.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1575290019.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1575290019
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1575290019.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1575290019.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1575290019 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file linux/videodev.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3434620669/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3434620669.dir/build.make CMakeFiles/cmTryCompileExec3434620669.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3434620669.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3434620669.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3434620669
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3434620669.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3434620669.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3434620669 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1242663734/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1242663734.dir/build.make CMakeFiles/cmTryCompileExec1242663734.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1242663734.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1242663734.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1242663734
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1242663734.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1242663734.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1242663734 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file linux/videodev.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3704328338/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3704328338.dir/build.make CMakeFiles/cmTryCompileExec3704328338.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3704328338.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3704328338.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3704328338
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3704328338.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3704328338.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3704328338 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec172941513/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec172941513.dir/build.make CMakeFiles/cmTryCompileExec172941513.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec172941513.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec172941513.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec172941513
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec172941513.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec172941513.dir/CheckIncludeFile.c.o  -o cmTryCompileExec172941513 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file linux/videodev.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3660585290/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3660585290.dir/build.make CMakeFiles/cmTryCompileExec3660585290.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3660585290.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3660585290.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3660585290
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3660585290.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3660585290.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3660585290 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2452482117/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2452482117.dir/build.make CMakeFiles/cmTryCompileExec2452482117.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2452482117.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2452482117.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2452482117
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2452482117.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2452482117.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2452482117 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+

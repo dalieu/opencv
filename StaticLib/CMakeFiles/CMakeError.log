@@ -1,0 +1,226 @@
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec87483600/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec87483600.dir/build.make CMakeFiles/cmTryCompileExec87483600.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec87483600.dir/TestEndianess.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec87483600.dir/TestEndianess.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec87483600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec87483600.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec87483600.dir/TestEndianess.c.o  -o cmTryCompileExec87483600 -rdynamic 
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec495600310/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec495600310.dir/build.make CMakeFiles/cmTryCompileExec495600310.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec495600310.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec495600310.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:16: error: io.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec495600310.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec495600310/fast] Error 2
+
+
+Determining if the function jbg_newlen exists failed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2240506106/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2240506106.dir/build.make CMakeFiles/cmTryCompileExec2240506106.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2240506106.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2240506106.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+/usr/share/cmake/Modules/CheckFunctionExists.c:3: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+Linking C executable cmTryCompileExec2240506106
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2240506106.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2240506106.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2240506106 -rdynamic 
+CMakeFiles/cmTryCompileExec2240506106.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.main+0x7): undefined reference to `jbg_newlen'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec2240506106] Error 1
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2240506106/fast] Error 2
+
+
+Determining if the include file /usr/include/libpng/png.h exists failed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec872017653/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec872017653.dir/build.make CMakeFiles/cmTryCompileExec872017653.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec872017653.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec872017653.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:37: error: /usr/include/libpng/png.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec872017653.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec872017653/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3342709592/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3342709592.dir/build.make CMakeFiles/cmTryCompileExec3342709592.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3342709592.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3342709592.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: error: sys/videoio.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3342709592.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3342709592/fast] Error 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3680276584/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3680276584.dir/build.make CMakeFiles/cmTryCompileExec3680276584.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3680276584.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3680276584.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:34: error: libavformat/avformat.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3680276584.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3680276584/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3168211374/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3168211374.dir/build.make CMakeFiles/cmTryCompileExec3168211374.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3168211374.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3168211374.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: error: ffmpeg/avformat.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3168211374.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3168211374/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1888380939/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1888380939.dir/build.make CMakeFiles/cmTryCompileExec1888380939.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1888380939.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1888380939.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: error: sys/videoio.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1888380939.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1888380939/fast] Error 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2349633568/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2349633568.dir/build.make CMakeFiles/cmTryCompileExec2349633568.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2349633568.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2349633568.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:34: error: libavformat/avformat.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2349633568.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2349633568/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4119244819/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4119244819.dir/build.make CMakeFiles/cmTryCompileExec4119244819.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4119244819.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec4119244819.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: error: ffmpeg/avformat.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4119244819.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec4119244819/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3619769792/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3619769792.dir/build.make CMakeFiles/cmTryCompileExec3619769792.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3619769792.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3619769792.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: error: sys/videoio.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3619769792.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3619769792/fast] Error 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2076593593/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2076593593.dir/build.make CMakeFiles/cmTryCompileExec2076593593.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2076593593.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2076593593.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:34: error: libavformat/avformat.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2076593593.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2076593593/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec59497638/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec59497638.dir/build.make CMakeFiles/cmTryCompileExec59497638.dir/build
+gmake[1]: Entering directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec59497638.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec59497638.dir/CheckIncludeFile.c.o   -c /home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: error: ffmpeg/avformat.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec59497638.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/home/dalieu/Downloads/opencv/StaticLib/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec59497638/fast] Error 2
+
+
